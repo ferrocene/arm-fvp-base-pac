@@ -30,3 +30,4 @@ zerocopy = { version = "0.8", features = ["derive"] }
 default = ["embedded-hal-nb", "embedded-io"]
 embedded-hal-nb = ["arm-pl011-uart/embedded-hal-nb"]
 embedded-io = ["arm-pl011-uart/embedded-io"]
+base-revc = []
